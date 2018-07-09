@@ -1077,6 +1077,14 @@ li {
     margin-right: 0;
 }
 
+.menu-hidden{
+    display: none;
+}
+
+.menu-show{
+    display: block;
+}
+
 /* Contact Area CSS */
 
 .breadcumb-content > p {
