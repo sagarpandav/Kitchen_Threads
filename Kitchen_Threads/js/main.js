@@ -2,15 +2,10 @@
  * Created by PANDAV on 07-07-2018.
  **/
 
-const IMG = document.querySelectorAll(".single_menu_item_img");
-for (let i =0; i<IMG.length; i++){
-    IMG[i].style.width = "500px";
-    IMG[i].style.height = "200px";
-}
-
 const allInOneMealsMenu = document.getElementById('allInOneMealsMenu');
 const biryaniMenu = document.getElementById('biryaniMenu');
 const burgerMenu = document.getElementById('burgerMenu');
+const curriesMenu = document.getElementById('curriesMenu');
 
 let allInOneMeals = [
     {
@@ -110,12 +105,70 @@ let burger = [
         title: 'Big Crunch Veg Spicy Burger'
     }
 ];
+let curries = [
+    {
+        src: 'img/FireShot/Curries/Amritsari_Chole.jpg',
+        title: 'Amritsari Chole'
+    },
+    {
+        src: 'img/FireShot/Curries/Basmati_Rice.jpg',
+        title: 'Basmati Rice'
+    },
+    {
+        src: 'img/FireShot/Curries/Butter_Chicken.jpg',
+        title: 'Butter Chicken'
+    },
+    {
+        src: 'img/FireShot/Curries/Chicken_Mughlai.jpg',
+        title: 'Chicken Mughlai'
+    },
+    {
+        src: 'img/FireShot/Curries/Dal_Makhni.jpg',
+        title: 'Dal Makhni'
+    },
+    {
+        src: 'img/FireShot/Curries/Dilli_Waale_Rajma.jpg',
+        title: 'Dilli Waale Rajma'
+    },
+    {
+        src: 'img/FireShot/Curries/Kadhai_Paneer.jpg',
+        title: 'Kadhai Paneer'
+    },
+    {
+        src: 'img/FireShot/Curries/Palak_Paneer.jpg',
+        title: 'Palak Paneer'
+    },
+    {
+        src: 'img/FireShot/Curries/Paneer_Makhni.jpg',
+        title: 'Paneer Makhni'
+    },
+    {
+        src: 'img/FireShot/Curries/Raita.jpg',
+        title: 'Raita'
+    },
+    {
+        src: 'img/FireShot/Curries/Saag_Chicken.jpg',
+        title: 'Saag Chicken'
+    },
+    {
+        src: 'img/FireShot/Curries/Subz_Saag_Handi.jpg',
+        title: 'Subz Saag Handi'
+    },
+    {
+        src: 'img/FireShot/Curries/Tawa_Paratha_Pack_of_2.jpg',
+        title: 'Tawa Paratha (Pack of 2)'
+    },
+    {
+        src: 'img/FireShot/Curries/Tawa_Paratha_Pack_of_8.jpg',
+        title: 'Tawa Paratha (Pack of 8)'
+    },
 
+];
 function setMenu(arr, element){
     let str = "";
     for (let i =0; i<arr.length; i++){
 
-        str += "<div class=\"col-12 col-sm-6 col-md-4\" style=\"margin-bottom: 50px\">\n" +
+        str += "<div class=\"col-12 col-sm-6 col-md-4\" >\n" +
             "                    <div class=\"kt-single-dish wow fadeInUp\" data-wow-delay=\"0.5s\">\n" +
             "                        <img class=\"single_menu_item_img1\" src=" + arr[i].src + " alt=\"\">\n" +
             "                        <div class=\"dish-info\">\n" +
@@ -131,29 +184,9 @@ function setMenu(arr, element){
 setMenu(allInOneMeals, allInOneMealsMenu);
 setMenu(biryani, biryaniMenu);
 setMenu(burger, burgerMenu);
-
-
-// let str = "";
-//  for (let i =0; i<allInOneMeals.length; i++){
-//
-//      str += "<div class=\"col-12 col-sm-6 col-md-4\" style=\"margin-bottom: 50px\">\n" +
-//          "                    <div class=\"kt-single-dish wow fadeInUp\" data-wow-delay=\"0.5s\">\n" +
-//          "                        <img class=\"single_menu_item_img1\" src=" + allInOneMeals[i].src + " alt=\"\">\n" +
-//          "                        <div class=\"dish-info\">\n" +
-//          "                            <h6 class=\"dish-name\">"+allInOneMeals[i].title+"</h6>\n" +
-//          "                            <p class=\"dish-price\">$45</p>\n" +
-//          "                        </div>\n" +
-//          "                    </div>\n" +
-//          "                </div>";
-//
-// }
-// allInOneMealsMenu.innerHTML = str;
-//
+setMenu(curries, curriesMenu);
 
  // allInOneMealsMenu.insertAdjacentHTML('afterend', str);
- // let image1d = document.createElement('img');
- // image1d.src = allInOneMeals[0].src;
- // allInOneMealsMenu.appendChild(image1d);
 
 function showHideAllInOneMenu(id) {
     if (id.classList.contains('menu-hidden')){
@@ -164,11 +197,4 @@ function showHideAllInOneMenu(id) {
             id.classList.add('menu-hidden');
         });
     }
-}
-
-const IMG1 = document.querySelectorAll(".single_menu_item_img1");
-for (let i =0; i<IMG1.length; i++){
-    IMG1[i].style.width = "300px";
-    IMG1[i].style.height = "150px";
-    IMG1[i].style.marginBottom = "10px";
 }

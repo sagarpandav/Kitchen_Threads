@@ -793,6 +793,13 @@ li {
     z-index: 1;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    margin-bottom: 20px;
+}
+
+.kt-single-dish > img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
 }
 
 .dish-info {
@@ -855,8 +862,10 @@ li {
 }
 
 .menu-heading {
+    padding-top: 20px;
     position: relative;
     z-index: 1;
+    padding-bottom: 20px;
 }
 
 .menu-heading > a {
@@ -865,6 +874,16 @@ li {
     top: 0;
     border: none;
     z-index: 9;
+}
+
+.menu-heading-hover:hover h2{
+    color: #ff0000;
+    font-weight: 900;
+}
+
+.menu-heading-hover:hover {
+    background-color: #f3f3f3;
+    border-radius: 20px;
 }
 
 .kt-dish-menu .row .col-12:first-child .kt-single-dish:before {
