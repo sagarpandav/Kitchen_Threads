@@ -1,11 +1,94 @@
 /**
  * Created by PANDAV on 07-07-2018.
- **/
+**/
 
-const allInOneMealsMenu = document.getElementById('allInOneMealsMenu');
-const biryaniMenu = document.getElementById('biryaniMenu');
-const burgerMenu = document.getElementById('burgerMenu');
-const curriesMenu = document.getElementById('curriesMenu');
+const mocktail = document.getElementById('mocktail');
+const reguler = document.getElementById('reguler');
+const incredible_taste = document.getElementById('incredible_taste');
+const alternative_nation = document.getElementById('alternative_nation');
+const pizza = document.getElementById('pizza');
+const soup = document.getElementById('soup');
+const salad_raita = document.getElementById('salad-raita');
+const side_dish = document.getElementById('side_dish');
+const sizzler = document.getElementById('sizzler');
+const marked_chings = document.getElementById('marked_chings');
+const rice_noodles = document.getElementById('rice-noodles');
+const tandoor_on_fire = document.getElementById('tandoor_on_fire');
+const indian_curries = document.getElementById('indian_curries');
+const kofta = document.getElementById('kofta');
+const dal = document.getElementById('dal');
+const tandoori_khazana = document.getElementById('tandoori_khazana');
+const rice = document.getElementById('rice');
+const dessert = document.getElementById('dessert');
+
+
+
+let categoriesArr = ['mocktail','reguler','incredible taste','alternative nation','pizza','soup',
+    'salad-raita', 'side dish','sizzler','marked chings','rice-noodles','tandoor on fire',
+    'indian curries','kofta','dal','tandoori khazana', 'rice','dessert'];
+
+function setMenuItems(arr, element){
+    let str = "";
+    for (let i =0; i<arr.length; i++){
+
+        str += "<div class=\"col-12 col-sm-6 col-md-4\" >\n" +
+            "                    <div class=\"kt-single-dish wow fadeInUp\" data-wow-delay=\"0.5s\">\n" +
+            // "                        <img class=\"single_menu_item_img1\" src=" + arr[i].src + " alt=\"\">\n" +
+            "                        <div class=\"dish-info\">\n" +
+            "                            <h6 class=\"dish-name\">"+arr[i].name+"</h6>\n" +
+            "                            <p class=\"dish-price\">"+arr[i].price+" ₹</p>\n" +
+            "                        </div>\n" +
+            "                    </div>\n" +
+            "                </div>";
+
+    }
+    element.innerHTML = str;
+}
+
+function loadJSON(callback) {
+    let xobj  = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'menu.json', true);
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200"){
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
+}
+let menu = [];
+function init() {
+    loadJSON(function (response) {
+        // Parse JSON string into object
+        menu = JSON.parse(response);
+
+        setMenuItems(menu.filter(e => e.type === categoriesArr[0]), mocktail);
+
+        let regularArr = menu.filter(e => e.type === categoriesArr[1]);
+        console.log(regularArr);
+
+        setMenuItems(menu.filter(e => e.type === categoriesArr[2]), incredible_taste);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[3]), alternative_nation);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[4]), pizza);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[5]), soup);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[6]), salad_raita);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[7]), side_dish);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[8]), sizzler);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[9]), marked_chings);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[10]), rice_noodles);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[11]), tandoor_on_fire);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[12]), indian_curries);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[13]), kofta);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[14]), dal);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[15]), tandoori_khazana);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[16]), rice);
+        setMenuItems(menu.filter(e => e.type === categoriesArr[17]), dessert);
+
+        setMenuItems(regularArr, reguler);
+    })
+}
+
+init();
 
 let allInOneMeals = [
     {
@@ -164,27 +247,6 @@ let curries = [
     },
 
 ];
-function setMenu(arr, element){
-    let str = "";
-    for (let i =0; i<arr.length; i++){
-
-        str += "<div class=\"col-12 col-sm-6 col-md-4\" >\n" +
-            "                    <div class=\"kt-single-dish wow fadeInUp\" data-wow-delay=\"0.5s\">\n" +
-            "                        <img class=\"single_menu_item_img1\" src=" + arr[i].src + " alt=\"\">\n" +
-            "                        <div class=\"dish-info\">\n" +
-            "                            <h6 class=\"dish-name\">"+arr[i].title+"</h6>\n" +
-            "                            <p class=\"dish-price\">$45</p>\n" +
-            "                        </div>\n" +
-            "                    </div>\n" +
-            "                </div>";
-
-    }
-    element.innerHTML = str;
-}
-setMenu(allInOneMeals, allInOneMealsMenu);
-setMenu(biryani, biryaniMenu);
-setMenu(burger, burgerMenu);
-setMenu(curries, curriesMenu);
 
  // allInOneMealsMenu.insertAdjacentHTML('afterend', str);
 
@@ -193,7 +255,7 @@ function showHideAllInOneMenu(id) {
         id.classList.remove('menu-hidden');
     }
     else {
-        $(id).fadeOut(10000,new function () {
+        $(id).fadeOut('slow',new function () {
             id.classList.add('menu-hidden');
         });
     }

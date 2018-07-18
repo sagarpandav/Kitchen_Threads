@@ -876,7 +876,11 @@ li {
     z-index: 9;
 }
 
-.menu-heading-hover:hover h2{
+.menu-heading-hover > h6{
+    font-size: 10px !important;
+}
+
+.menu-heading-hover:hover h6{
     color: #ff0000;
     font-weight: 900;
 }

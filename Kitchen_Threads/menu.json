@@ -1,0 +1,1213 @@
+[
+    {
+        "id": "1",
+        "name": "Pina Colada",
+        "price": "90",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "2",
+        "name": "Gypsy Mojito",
+        "price": "90",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "3",
+        "name": "Light Lady",
+        "price": "90",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "4",
+        "name": "African Fruit Tango",
+        "price": "100",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "5",
+        "name": "Blue Queen",
+        "price": "90",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "6",
+        "name": "Tanhai",
+        "price": "90",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "7",
+        "name": "Cinderella",
+        "price": "120",
+        "src": "",
+        "type": "mocktail"
+    },
+    {
+        "id": "8",
+        "name": "Lemon Ice Tea",
+        "price": "60",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "9",
+        "name": "Aerated Beverages",
+        "price": "35",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "10",
+        "name": "Fresh Lime Water",
+        "price": "35",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "11",
+        "name": "Fresh Lime Soda",
+        "price": "40",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "12",
+        "name": "Minral Water",
+        "price": "30",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "13",
+        "name": "Lassi (Sweet/Solt)",
+        "price": "80",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "14",
+        "name": "Cold Coffe",
+        "price": "70",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "15",
+        "name": "Cold Coffe with Ice-Cream",
+        "price": "90",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "16",
+        "name": "Butter Milk",
+        "price": "40",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "17",
+        "name": "(Vanila/Strawberry/Chocolate/Mango) Shake",
+        "price": "80",
+        "src": "",
+        "type": "reguler"
+    },
+    {
+        "id": "18",
+        "name": "Terrific Nachos",
+        "price": "150",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "19",
+        "name": "Jalapeno Cheese Pouches",
+        "price": "150",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "20",
+        "name": "Bruschetta",
+        "price": "110",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "21",
+        "name": "Spicy Hunana Potatoes",
+        "price": "100",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "22",
+        "name": "Crostini Calabria",
+        "price": "150",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "23",
+        "name": "Mexican Gold N Crisp",
+        "price": "150",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "24",
+        "name": "Roman Garlic Toast",
+        "price": "90",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "25",
+        "name": "Enchilada Mariachi",
+        "price": "240",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "26",
+        "name": "Lasagna Sicilnes",
+        "price": "240",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "27",
+        "name": "Spinch And Coen Lasagna",
+        "price": "240",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "28",
+        "name": "Vegetable AU Gratin",
+        "price": "200",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "29",
+        "name": "Macroni Nepolitano",
+        "price": "200",
+        "src": "",
+        "type": "incredible taste"
+    },
+    {
+        "id": "30",
+        "name": "Italian Pasta With Garlic Toast",
+        "price": "210",
+        "src": "",
+        "type": "alternative nation"
+    },
+    {
+        "id": "31",
+        "name": "Original Pasta",
+        "price": "210",
+        "src": "",
+        "type": "alternative nation"
+    },
+    {
+        "id": "32",
+        "name": "Margherita",
+        "price": "150",
+        "src": "",
+        "type": "pizza"
+    },
+    {
+        "id": "33",
+        "name": "Milanese Magic",
+        "price": "150",
+        "src": "",
+        "type": "pizza"
+    },
+    {
+        "id": "34",
+        "name": "Desi Dhamaka",
+        "price": "200",
+        "src": "",
+        "type": "pizza"
+    },
+    {
+        "id": "35",
+        "name": "Pavarotti",
+        "price": "200",
+        "src": "",
+        "type": "pizza"
+    },
+    {
+        "id": "36",
+        "name": "House spl Browl Pizza",
+        "price": "200",
+        "src": "",
+        "type": "pizza"
+    },
+    {
+        "id": "37",
+        "name": "Corn Chilly Palak Shorba",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "38",
+        "name": "Tomato Dhaniya Shorba",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "39",
+        "name": "Palak Shorba",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "40",
+        "name": "Tomato Corn Soup",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "41",
+        "name": "Maxicam Chilly Bean Soup",
+        "price": "120",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "42",
+        "name": "Sopa De Elote",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "43",
+        "name": "Florentine Veg Soup",
+        "price": "120",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "44",
+        "name": "Bermes Soup",
+        "price": "120",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "45",
+        "name": "Manchow Soup",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "46",
+        "name": "Sweet Corn Soup",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "47",
+        "name": "Lemon & Coriander Soup",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "48",
+        "name": "Vegetable Noodles Soup",
+        "price": "100",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "49",
+        "name": "Broccoli Garlic Clear Soup",
+        "price": "110",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "50",
+        "name": "Tom Yom Soup",
+        "price": "120",
+        "src": "",
+        "type": "soup"
+    },
+    {
+        "id": "51",
+        "name": "Creamy Red Russian Salad",
+        "price": "120",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "52",
+        "name": "Hawaaiian Salad",
+        "price": "100",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "53",
+        "name": "Kimchi Salad",
+        "price": "90",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "54",
+        "name": "Chana Chaat Salad",
+        "price": "90",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "55",
+        "name": "Kitchen Thread Special Salad",
+        "price": "150",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "56",
+        "name": "Raita",
+        "price": "70",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "57",
+        "name": "Caesar Salad",
+        "price": "120",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "58",
+        "name": "Green Salad",
+        "price": "90",
+        "src": "",
+        "type": "salad-raita"
+    },
+    {
+        "id": "59",
+        "name": "Rosted Papad",
+        "price": "20",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "60",
+        "name": "Fried Papad",
+        "price": "30",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "61",
+        "name": "Masala Papad",
+        "price": "40",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "62",
+        "name": "Cheese Masala Papad",
+        "price": "50",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "63",
+        "name": "Dollar Masala Papad",
+        "price": "40",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "64",
+        "name": "Masala Khakhra",
+        "price": "40",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "65",
+        "name": "Cheese Masala Khakhra",
+        "price": "50",
+        "src": "",
+        "type": "side dish"
+    },
+    {
+        "id": "66",
+        "name": "Fajitas El Paso",
+        "price": "280",
+        "src": "",
+        "type": "sizzler"
+    },
+    {
+        "id": "67",
+        "name": "Mafia Mania",
+        "price": "280",
+        "src": "",
+        "type": "sizzler"
+    },
+    {
+        "id": "68",
+        "name": "Hunters Shashlik",
+        "price": "300",
+        "src": "",
+        "type": "sizzler"
+    },
+    {
+        "id": "69",
+        "name": "Chinese Blast",
+        "price": "300",
+        "src": "",
+        "type": "sizzler"
+    },
+    {
+        "id": "70",
+        "name": "Three Flavour Sizzler",
+        "price": "350",
+        "src": "",
+        "type": "sizzler"
+    },
+    {
+        "id": "71",
+        "name": "Chinese Bhel",
+        "price": "180",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "72",
+        "name": "Vegetable Manchuriaan",
+        "price": "150",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "73",
+        "name": "Schezwan Cauli-Flower",
+        "price": "180",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "74",
+        "name": "Paneer Red Cook",
+        "price": "240",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "75",
+        "name": "Three Treasure Vegetable",
+        "price": "240",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "76",
+        "name": "Paneer Chilly / Mashroom Chilly",
+        "price": "240",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "77",
+        "name": "Vegetable Spring Rolls",
+        "price": "200",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "78",
+        "name": "Crispy Fried Vegetable",
+        "price": "180",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "79",
+        "name": "Mushroom Salt And Papper",
+        "price": "240",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "80",
+        "name": "Paneer Shanghai",
+        "price": "240",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "81",
+        "name": "Schezwan Chilly Paneer",
+        "price": "240",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "82",
+        "name": "Shanghai Lemon Vegetable",
+        "price": "180",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "83",
+        "name": "Vegetable Hong Kong",
+        "price": "200",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "84",
+        "name": "Veg - 65",
+        "price": "180",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "85",
+        "name": "Veg Lollipop",
+        "price": "180",
+        "src": "",
+        "type": "marked chings"
+    },
+    {
+        "id": "86",
+        "name": "Vegetable Fried Rice",
+        "price": "150",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "87",
+        "name": "Vegetable Stewed Rice",
+        "price": "180",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "88",
+        "name": "Oriental Fried Rice",
+        "price": "150",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "89",
+        "name": "Combination Fried Rice",
+        "price": "180",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "90",
+        "name": "Schezwan Garlic Noodles",
+        "price": "200",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "91",
+        "name": "Veg Hakka Noodles",
+        "price": "180",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "92",
+        "name": "Vegetable Hong kong Noodles",
+        "price": "200",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "93",
+        "name": "Kitchen Threads Noodles",
+        "price": "200",
+        "src": "",
+        "type": "rice-noodles"
+    },
+    {
+        "id": "94",
+        "name": "Hara Bhara Kebab",
+        "price": "150",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "95",
+        "name": "Chawal Kurkure Kebab",
+        "price": "180",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "96",
+        "name": "Vegetable Seekh Kebab",
+        "price": "150",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "97",
+        "name": "Paneer Malani Seekh",
+        "price": "200",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "98",
+        "name": "Paneer ke Sooley",
+        "price": "220",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "99",
+        "name": "Paneer Banarasi Tikka",
+        "price": "220",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "100",
+        "name": "Paneer Malai Tikka",
+        "price": "220",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "101",
+        "name": "Paneer Kandhari",
+        "price": "220",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "102",
+        "name": "Basil Paneer Tikka",
+        "price": "220",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "103",
+        "name": "Paneer Lasuni Tikka",
+        "price": "220",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "104",
+        "name": "Achari Mushroom",
+        "price": "240",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "105",
+        "name": "Lahori Guldasta",
+        "price": "180",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "106",
+        "name": "Tandoori Aloo",
+        "price": "180",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "107",
+        "name": "Tandoori Soya Chaap",
+        "price": "200",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "108",
+        "name": "Tandoori Platter",
+        "price": "325",
+        "src": "",
+        "type": "tandoor on fire"
+    },
+    {
+        "id": "109",
+        "name": "Paneer Kasturi Masala",
+        "price": "250",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "110",
+        "name": "Palak Paneer",
+        "price": "220",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "111",
+        "name": "Paneer Tikka Masala",
+        "price": "240",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "112",
+        "name": "Kadai Paneer",
+        "price": "230",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "113",
+        "name": "Paneer Pasanda",
+        "price": "240",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "114",
+        "name": "Paneer Kurchan",
+        "price": "230",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "115",
+        "name": "Paneer Hyderabadi",
+        "price": "230",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "116",
+        "name": "Paneer Lazeez",
+        "price": "240",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "117",
+        "name": "Paneer Bhurji",
+        "price": "220",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "118",
+        "name": "Paneer Balti",
+        "price": "220",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "119",
+        "name": "Vegetable Maratha",
+        "price": "200",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "120",
+        "name": "Veg Bhuna Masala",
+        "price": "180",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "121",
+        "name": "Vegatable Handi / Subz Dewani Handi",
+        "price": "180",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "122",
+        "name": "Veg Jalereji",
+        "price": "170",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "123",
+        "name": "Veg Makhani",
+        "price": "180",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "124",
+        "name": "Methi Mutter Malai",
+        "price": "200",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "125",
+        "name": "Mushroom Masala (Brown Gravy)",
+        "price": "240",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "126",
+        "name": "Manpasand Aloo",
+        "price": "150",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "127",
+        "name": "Veg Tawa",
+        "price": "180",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "128",
+        "name": "Veg Kolhapuri",
+        "price": "180",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "129",
+        "name": "Navratana Korma",
+        "price": "220",
+        "src": "",
+        "type": "indian curries"
+    },
+    {
+        "id": "130",
+        "name": "Mughlai Kofta",
+        "price": "220",
+        "src": "",
+        "type": "kofta"
+    },
+    {
+        "id": "131",
+        "name": "Veg Kofta",
+        "price": "200",
+        "src": "",
+        "type": "kofta"
+    },
+    {
+        "id": "132",
+        "name": "Malai Kofta",
+        "price": "200",
+        "src": "",
+        "type": "kofta"
+    },
+    {
+        "id": "133",
+        "name": "Nargisi Kofta",
+        "price": "220",
+        "src": "",
+        "type": "kofta"
+    },
+    {
+        "id": "134",
+        "name": "Kitchen Threads Kofta",
+        "price": "250",
+        "src": "",
+        "type": "kofta"
+    },
+    {
+        "id": "135",
+        "name": "Chui Mai Kofta",
+        "price": "200",
+        "src": "",
+        "type": "kofta"
+    },
+    {
+        "id": "136",
+        "name": "Punjabi Dal Tadka",
+        "price": "150",
+        "src": "",
+        "type": "dal"
+    },
+    {
+        "id": "137",
+        "name": "Dal Fry",
+        "price": "130",
+        "src": "",
+        "type": "dal"
+    },
+    {
+        "id": "138",
+        "name": "Dal Makhani",
+        "price": "180",
+        "src": "",
+        "type": "dal"
+    },
+    {
+        "id": "139",
+        "name": "Dal Maharani",
+        "price": "200",
+        "src": "",
+        "type": "dal"
+    },
+    {
+        "id": "140",
+        "name": "Dal Palak",
+        "price": "130",
+        "src": "",
+        "type": "dal"
+    },
+    {
+        "id": "141",
+        "name": "Roti Plain",
+        "price": "25",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "142",
+        "name": "Roti Butter",
+        "price": "35",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "143",
+        "name": "Khasta Roti",
+        "price": "40",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "144",
+        "name": "Missi Roti",
+        "price": "45",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "145",
+        "name": "Nan Plain",
+        "price": "40",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "146",
+        "name": "Nan Butter",
+        "price": "45",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "147",
+        "name": "Garlic and Cheese Nan",
+        "price": "80",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "148",
+        "name": "Green Garlic Nan",
+        "price": "80",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "149",
+        "name": "Cheese and Chilly Garlic Nan",
+        "price": "80",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "150",
+        "name": "(Aloo/Veg/Gobi) Paratha",
+        "price": "80",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "151",
+        "name": "Paneer and Cheese Paratha",
+        "price": "100",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "152",
+        "name": "Laccha Paratha Plain",
+        "price": "45",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "153",
+        "name": "Laccha Paratha (Pudina / Methi / Ajwain)",
+        "price": "55",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "154",
+        "name": "Kulcha Plain",
+        "price": "35",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "155",
+        "name": "Kulcha Butter",
+        "price": "40",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "156",
+        "name": "Kulcha (Pudina / Methi / Ajwain)",
+        "price": "70",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "157",
+        "name": "Rumali Roti Plain",
+        "price": "50",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "158",
+        "name": "Rumali Roti Butter",
+        "price": "60",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "159",
+        "name": "Roti Basket",
+        "price": "250",
+        "src": "",
+        "type": "tandoori khazana"
+    },
+    {
+        "id": "160",
+        "name": "Steam Rice",
+        "price": "100",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "161",
+        "name": "Jeera Rice",
+        "price": "130",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "162",
+        "name": "Veg Pulao",
+        "price": "150",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "163",
+        "name": "Kashmiri Pulao",
+        "price": "200",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "164",
+        "name": "Subzi Dum Biriyani",
+        "price": "200",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "165",
+        "name": "Hydrabadi Biriyani",
+        "price": "200",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "166",
+        "name": "Palak Khichadi",
+        "price": "150",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "167",
+        "name": "Dal Khichadi",
+        "price": "130",
+        "src": "",
+        "type": "rice"
+    },
+    {
+        "id": "168",
+        "name": "Banana Split",
+        "price": "200",
+        "src": "",
+        "type": "dessert"
+    },
+    {
+        "id": "169",
+        "name": "fruit Salad with Ice-Cream",
+        "price": "150",
+        "src": "",
+        "type": "dessert"
+    },
+    {
+        "id": "170",
+        "name": "Vanila / Chocolate / Strawberry",
+        "price": "100",
+        "src": "",
+        "type": "dessert"
+    },
+    {
+        "id": "171",
+        "name": "Chocolate Brownie with Ice-Cream",
+        "price": "150",
+        "src": "",
+        "type": "dessert"
+    },
+    {
+        "id": "172",
+        "name": "Gulab Jamun",
+        "price": "80",
+        "src": "",
+        "type": "dessert"
+    },
+    {
+        "id": "173",
+        "name": "Hot and Cold",
+        "price": "100",
+        "src": "",
+        "type": "dessert"
+    }
+]
