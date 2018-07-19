@@ -53,70 +53,70 @@
         "name": "Lemon Ice Tea",
         "price": "60",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "9",
         "name": "Aerated Beverages",
         "price": "35",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "10",
         "name": "Fresh Lime Water",
         "price": "35",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "11",
         "name": "Fresh Lime Soda",
         "price": "40",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "12",
         "name": "Minral Water",
         "price": "30",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "13",
         "name": "Lassi (Sweet/Solt)",
         "price": "80",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "14",
         "name": "Cold Coffe",
         "price": "70",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "15",
         "name": "Cold Coffe with Ice-Cream",
         "price": "90",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "16",
         "name": "Butter Milk",
         "price": "40",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "17",
-        "name": "(Vanila/Strawberry/Chocolate/Mango) Shake",
+        "name": "(Vanila / Strawberry / Chocolate / Mango) Shake",
         "price": "80",
         "src": "",
-        "type": "reguler"
+        "type": "regular"
     },
     {
         "id": "18",

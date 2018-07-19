@@ -3,7 +3,7 @@
 **/
 
 const mocktail = document.getElementById('mocktail');
-const reguler = document.getElementById('reguler');
+const regular = document.getElementById('regular');
 const incredible_taste = document.getElementById('incredible_taste');
 const alternative_nation = document.getElementById('alternative_nation');
 const pizza = document.getElementById('pizza');
@@ -23,7 +23,7 @@ const dessert = document.getElementById('dessert');
 
 
 
-let categoriesArr = ['mocktail','reguler','incredible taste','alternative nation','pizza','soup',
+let categoriesArr = ['mocktail','regular','incredible taste','alternative nation','pizza','soup',
     'salad-raita', 'side dish','sizzler','marked chings','rice-noodles','tandoor on fire',
     'indian curries','kofta','dal','tandoori khazana', 'rice','dessert'];
 
@@ -63,10 +63,7 @@ function init() {
         menu = JSON.parse(response);
 
         setMenuItems(menu.filter(e => e.type === categoriesArr[0]), mocktail);
-
-        let regularArr = menu.filter(e => e.type === categoriesArr[1]);
-        console.log(regularArr);
-
+        setMenuItems(menu.filter(e => e.type === categoriesArr[1]), regular);
         setMenuItems(menu.filter(e => e.type === categoriesArr[2]), incredible_taste);
         setMenuItems(menu.filter(e => e.type === categoriesArr[3]), alternative_nation);
         setMenuItems(menu.filter(e => e.type === categoriesArr[4]), pizza);
@@ -84,7 +81,7 @@ function init() {
         setMenuItems(menu.filter(e => e.type === categoriesArr[16]), rice);
         setMenuItems(menu.filter(e => e.type === categoriesArr[17]), dessert);
 
-        setMenuItems(regularArr, reguler);
+
     })
 }
 
